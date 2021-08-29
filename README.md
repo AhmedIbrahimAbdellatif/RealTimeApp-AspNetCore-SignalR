@@ -6,3 +6,9 @@
 
 ***
 
+### Project Scope
+
+- Communicating with the `Caller` of a server hub method
+- Handle events for when a connection is made `onConnected` or terminated `onDisconnected`
+- Send messages to specific connected `Clients`
+- Send messages to `Group` connected `Clients`
