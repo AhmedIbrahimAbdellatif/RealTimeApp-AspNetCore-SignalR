@@ -29,7 +29,7 @@
 
 - A stateless request-response protocol
 - Whenever the client wants to refresh its data, it has to make a request to the server
-- There is not means by which the server can push data to the client
+- There is no means by which the server can push data to the client
 - The problem is very clear in a scenario when the state changes and the client doesn't know about the change until it refreshes or sends a new request to the server
 
 ***
@@ -70,7 +70,7 @@
 
 ### Simple Description of Project Architecture
 
-- I created a hub does the following
+- I created a hub that does the following
   - Notifies all clients with newly created/terminated connections
   - Has a method for joining groups
   - Has methods for sending messages to all clients, the client that called the hub method, a certain group
